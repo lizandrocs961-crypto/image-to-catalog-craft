@@ -144,12 +144,12 @@ export function ProductSection({ p, index }: { p: Product; index: number }) {
           <motion.a
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.96 }}
-            href={waLink(`Olá! Vi o catálogo e quero saber o preço e condições do modelo ${p.name}.`)}
+            href={waLink(`Olá! Vi o catálogo e quero saber mais sobre o modelo ${p.name}.`)}
             target="_blank"
             rel="noreferrer"
             className="btn-shine mt-6 flex w-full items-center justify-center gap-2 rounded-2xl px-6 py-4 text-base font-extrabold uppercase tracking-wide text-primary-foreground shadow-glow"
           >
-            <MessageCircle className="h-5 w-5" /> Quero esse! Ver preço no WhatsApp
+            <MessageCircle className="h-5 w-5" /> Quero esse! Falar no WhatsApp
           </motion.a>
         </motion.div>
       </div>
